@@ -244,3 +244,38 @@ margin-top: 30px;
 .contact-box h2 {
 margin-bottom: 10px;
 }
+
+/* DROPDOWN MENU */
+
+.dropdown {
+position: relative;
+}
+
+.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+background: #181818;
+list-style: none;
+min-width: 220px;
+border-radius: 12px;
+padding: 10px 0;
+
+```
+display: none;
+```
+
+}
+
+.dropdown-menu li {
+padding: 12px 20px;
+}
+
+.dropdown-menu a {
+color: white;
+text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
