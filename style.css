@@ -432,6 +432,10 @@ footer{
 
 /* PORTFOLIO PAGE */
 
+/* ==========================
+   PORTFOLIO PAGE
+========================== */
+
 .portfolio-hero{
     width:90%;
     max-width:1400px;
@@ -442,15 +446,19 @@ footer{
     flex-direction:column;
     justify-content:center;
 
-    padding-top:120px;
+    padding-top:140px;
 }
 
 .portfolio-hero h1{
     font-family:'Playfair Display', serif;
     font-size:5rem;
-    line-height:1.1;
-    max-width:900px;
+    line-height:1.08;
+    font-weight:600;
+    max-width:950px;
 }
+
+
+/* CATEGORY MENU */
 
 .portfolio-menu{
     width:90%;
@@ -461,14 +469,16 @@ footer{
     gap:40px;
     flex-wrap:wrap;
 
-    padding-bottom:80px;
+    padding-bottom:100px;
 }
 
 .portfolio-menu a{
-    text-decoration:none;
     color:#f5f5f5;
+    text-decoration:none;
     text-transform:uppercase;
     letter-spacing:2px;
+    font-size:0.95rem;
+
     position:relative;
 }
 
@@ -476,23 +486,58 @@ footer{
     content:'';
     position:absolute;
     left:0;
-    bottom:-6px;
+    bottom:-7px;
+
     width:0;
     height:1px;
-    background:#fff;
-    transition:0.3s;
+
+    background:#f5f5f5;
+    transition:0.35s ease;
 }
 
 .portfolio-menu a:hover::after{
     width:100%;
 }
 
+
+/* PORTFOLIO SECTION */
+
 .portfolio-section{
     width:90%;
     max-width:1400px;
     margin:auto;
-    padding:100px 0;
+    padding:90px 0;
 }
+
+
+/* PINTEREST GRID */
+
+.gallery-grid{
+    column-count:3;
+    column-gap:24px;
+}
+
+.gallery-card{
+    break-inside:avoid;
+    margin-bottom:24px;
+
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.gallery-card img{
+    width:100%;
+    display:block;
+
+    transition:0.6s ease;
+}
+
+.gallery-card:hover img{
+    transform:scale(1.04);
+}
+
+
+/* FILMS */
 
 .film-grid{
     display:grid;
@@ -503,6 +548,11 @@ footer{
 .film-card{
     border:1px solid #222;
     padding:50px;
+    transition:0.35s ease;
+}
+
+.film-card:hover{
+    transform:translateY(-4px);
 }
 
 .film-card h3{
@@ -516,34 +566,66 @@ footer{
     line-height:1.9;
 }
 
+
+/* COMMISSIONS */
+
 .commission-section{
     width:90%;
     max-width:1400px;
     margin:auto;
     text-align:center;
-    padding:120px 0;
+
+    padding:140px 0;
 }
 
 .commission-box{
-    border:1px solid #222;
-    padding:50px;
-    max-width:700px;
+    max-width:750px;
     margin:50px auto;
+
+    border:1px solid #222;
+    padding:60px;
 }
 
 .commission-box p{
-    margin-bottom:20px;
     font-size:1.1rem;
+    margin-bottom:20px;
+    color:#d4d4d4;
 }
+
+
+/* RESPONSIVE */
 
 @media(max-width:992px){
 
     .portfolio-hero h1{
-        font-size:3rem;
+        font-size:3.5rem;
+    }
+
+    .gallery-grid{
+        column-count:2;
     }
 
     .film-grid{
         grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:768px){
+
+    .portfolio-hero h1{
+        font-size:2.7rem;
+    }
+
+    .portfolio-menu{
+        gap:20px;
+    }
+
+    .gallery-grid{
+        column-count:1;
+    }
+
+    .commission-box{
+        padding:40px 25px;
     }
 }
 
