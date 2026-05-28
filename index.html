@@ -2,73 +2,162 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Abhishek — Artist Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- BACKGROUND BLOBS -->
 
-<nav class="navbar">
-    <h1 class="logo">Abhishek</h1>
+<div id="bg" aria-hidden="true">
 
-  
+  <svg class="b blob-1" viewBox="0 0 500 480">
+    <path d="M355 248C408 162 415 58 308 22 201-14 88 52 54 148 18 242 46 342 118 392 190 442 284 426 338 365 382 318 308 326 355 248Z" fill="#4A8CE8"/>
+    <circle cx="356" cy="28" r="24" fill="#4A8CE8" opacity=".7"/>
+    <circle cx="382" cy="6" r="9" fill="#4A8CE8" opacity=".55"/>
+  </svg>
+
+  <svg class="b dot-1" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="8" fill="#4A8CE8"/>
+  </svg>
+
+  <svg class="b dot-2" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5" fill="#4A8CE8" opacity=".5"/>
+  </svg>
+
+</div>
+
+<!-- NAVBAR -->
+
+<nav>
+
+```
+<a href="index.html" class="logo">
+    NOBD.
+</a>
+
 <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
 
-    <li><a href="about.html">About</a></li>
-
-    <li class="dropdown">
-        <a href="portfolio.html">Portfolio</a>
-
-        <ul class="dropdown-menu">
-            <li><a href="portfolio.html#traditional">Traditional Art</a></li>
-            <li><a href="portfolio.html#digital">Digital Art</a></li>
-            <li><a href="portfolio.html#posters">Posters</a></li>
-            <li><a href="portfolio.html#films">Short Films</a></li>
-        </ul>
+    <li>
+        <a href="index.html">Home</a>
     </li>
 
-    <li><a href="contact.html">Contact</a></li>
-</ul>
+    <li>
+        <a href="about.html">About</a>
+    </li>
 
+    <li class="dropdown">
+
+        <a href="portfolio.html">
+            Portfolio
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li>
+                <a href="portfolio.html#traditional">
+                    Traditional Art
+                </a>
+            </li>
+
+            <li>
+                <a href="portfolio.html#digital">
+                    Digital Art
+                </a>
+            </li>
+
+            <li>
+                <a href="portfolio.html#poster">
+                    Posters
+                </a>
+            </li>
+
+            <li>
+                <a href="portfolio.html#film">
+                    Short Films
+                </a>
+            </li>
+
+        </ul>
+
+    </li>
+
+    <li>
+        <a href="contact.html" class="nav-pill">
+            Contact
+        </a>
+    </li>
+
+</ul>
+```
 
 </nav>
 
-<section class="hero">
-    <div class="hero-content">
+<!-- HERO -->
 
-        <h2>Hello, I'm Abhishek</h2>
+<section id="home">
 
-        <p>
-            Traditional Artist • Future Animator • Storyteller
-        </p>
+```
+<div>
 
-        <a href="portfolio.html" class="btn">
-            View My Portfolio
+    <span class="hero-badge">
+        Artist & Illustrator · Delhi, India
+    </span>
+
+    <h1 class="hero">
+        Bringing<br>
+        characters<br>
+        <em>to life.</em>
+    </h1>
+
+    <p class="hero-sub">
+        Digital illustrations, traditional art,
+        concept work — rooted in vivid imagination
+        and visual storytelling.
+    </p>
+
+    <div class="btns">
+
+        <a href="portfolio.html" class="btn btn-dark">
+            See my work
+        </a>
+
+        <a href="contact.html" class="btn btn-ghost">
+            Commission me
         </a>
 
     </div>
-</section>
 
-<section class="intro">
+</div>
 
-    <h2>Welcome to My Portfolio</h2>
-
-    <p>
-        I am an aspiring animator and illustrator passionate about
-        storytelling, character design, traditional art, and visual creativity.
-    </p>
-
-    <p>
-        Here you can explore my artwork, projects, posters,
-        and creative journey.
-    </p>
+<div class="scroll-cue">
+    Explore my work
+</div>
+```
 
 </section>
 
+<footer>
+
+```
+<span>
+    © 2026 Abhishek. All rights reserved.
+</span>
+
+<span>
+    Made with ♥ in Delhi
+</span>
+```
+
+</footer>
 
 </body>
 </html>
