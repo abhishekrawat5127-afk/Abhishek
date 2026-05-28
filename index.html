@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Abhishek — Artist Portfolio</title>
+<title>NOBD — Artist Portfolio</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -19,18 +19,22 @@
 
 <div id="bg" aria-hidden="true">
 
-  <svg class="b blob-1" viewBox="0 0 500 480">
+  <svg class="b blob1" viewBox="0 0 500 480">
     <path d="M355 248C408 162 415 58 308 22 201-14 88 52 54 148 18 242 46 342 118 392 190 442 284 426 338 365 382 318 308 326 355 248Z" fill="#4A8CE8"/>
     <circle cx="356" cy="28" r="24" fill="#4A8CE8" opacity=".7"/>
     <circle cx="382" cy="6" r="9" fill="#4A8CE8" opacity=".55"/>
   </svg>
 
-  <svg class="b dot-1" viewBox="0 0 16 16">
+  <svg class="b dot1" viewBox="0 0 16 16">
     <circle cx="8" cy="8" r="8" fill="#4A8CE8"/>
   </svg>
 
-  <svg class="b dot-2" viewBox="0 0 10 10">
+  <svg class="b dot2" viewBox="0 0 10 10">
     <circle cx="5" cy="5" r="5" fill="#4A8CE8" opacity=".5"/>
+  </svg>
+
+  <svg class="b blob2" viewBox="0 0 360 380">
+    <path d="M252 198C296 124 304 40 218 14 132-12 60 54 40 138 20 222 54 314 128 346 202 378 264 338 282 264 296 210 220 262 252 198Z" fill="#4A8CE8"/>
   </svg>
 
 </div>
@@ -56,36 +60,13 @@
 
     <li class="dropdown">
 
-        <a href="portfolio.html">
-            Portfolio
-        </a>
+        <a href="portfolio.html">Portfolio</a>
 
         <ul class="dropdown-menu">
-
-            <li>
-                <a href="portfolio.html#traditional">
-                    Traditional Art
-                </a>
-            </li>
-
-            <li>
-                <a href="portfolio.html#digital">
-                    Digital Art
-                </a>
-            </li>
-
-            <li>
-                <a href="portfolio.html#poster">
-                    Posters
-                </a>
-            </li>
-
-            <li>
-                <a href="portfolio.html#film">
-                    Short Films
-                </a>
-            </li>
-
+            <li><a href="portfolio.html#traditional">Traditional Art</a></li>
+            <li><a href="portfolio.html#digital">Digital Art</a></li>
+            <li><a href="portfolio.html#poster">Posters</a></li>
+            <li><a href="portfolio.html#film">Short Films</a></li>
         </ul>
 
     </li>
@@ -106,10 +87,10 @@
 <section id="home">
 
 ```
-<div>
+<div class="hero-content">
 
     <span class="hero-badge">
-        Artist & Illustrator · Delhi, India
+        Artist &amp; Illustrator · Delhi, India
     </span>
 
     <h1 class="hero">
@@ -139,24 +120,15 @@
 </div>
 
 <div class="scroll-cue">
-    Explore my work
+    Scroll down
 </div>
 ```
 
 </section>
 
 <footer>
-
-```
-<span>
-    © 2026 Abhishek. All rights reserved.
-</span>
-
-<span>
-    Made with ♥ in Delhi
-</span>
-```
-
+    <span>© 2026 NOBD. All rights reserved.</span>
+    <span>Made with ♥ in Delhi</span>
 </footer>
 
 </body>
