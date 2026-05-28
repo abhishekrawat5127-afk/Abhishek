@@ -1,135 +1,134 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>NOBD — Artist Portfolio</title>
+    <title>NOBD — Home</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- BACKGROUND BLOBS -->
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
 
-<div id="bg" aria-hidden="true">
+            <a href="index.html" class="logo">NOBD</a>
 
-  <svg class="b blob1" viewBox="0 0 500 480">
-    <path d="M355 248C408 162 415 58 308 22 201-14 88 52 54 148 18 242 46 342 118 392 190 442 284 426 338 365 382 318 308 326 355 248Z" fill="#4A8CE8"/>
-    <circle cx="356" cy="28" r="24" fill="#4A8CE8" opacity=".7"/>
-    <circle cx="382" cy="6" r="9" fill="#4A8CE8" opacity=".55"/>
-  </svg>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
 
-  <svg class="b dot1" viewBox="0 0 16 16">
-    <circle cx="8" cy="8" r="8" fill="#4A8CE8"/>
-  </svg>
+        </nav>
+    </header>
 
-  <svg class="b dot2" viewBox="0 0 10 10">
-    <circle cx="5" cy="5" r="5" fill="#4A8CE8" opacity=".5"/>
-  </svg>
 
-  <svg class="b blob2" viewBox="0 0 360 380">
-    <path d="M252 198C296 124 304 40 218 14 132-12 60 54 40 138 20 222 54 314 128 346 202 378 264 338 282 264 296 210 220 262 252 198Z" fill="#4A8CE8"/>
-  </svg>
+    <!-- HERO SECTION -->
+    <section class="hero">
 
-</div>
+        <div class="hero-text">
+            <p class="small-heading">
+                Illustrator • Animator • Story Artist
+            </p>
 
-<!-- NAVBAR -->
+            <h1>
+                Creating Editorial Visual Stories Through Art & Motion
+            </h1>
 
-<nav>
+            <p class="hero-description">
+                A creative space showcasing illustrations, cinematic visuals,
+                storytelling, and personal artistic exploration.
+            </p>
 
-```
-<a href="index.html" class="logo">
-    NOBD.
-</a>
+            <a href="portfolio.html" class="hero-button">
+                View Portfolio
+            </a>
+        </div>
 
-<ul class="nav-links">
+    </section>
 
-    <li>
-        <a href="index.html">Home</a>
-    </li>
 
-    <li>
-        <a href="about.html">About</a>
-    </li>
+    <!-- FEATURED WORK -->
+    <section class="featured-work">
 
-    <li class="dropdown">
+        <div class="section-title">
+            <p>SELECTED WORK</p>
+            <h2>Featured Projects</h2>
+        </div>
 
-        <a href="portfolio.html">Portfolio</a>
+        <div class="gallery-grid">
 
-        <ul class="dropdown-menu">
-            <li><a href="portfolio.html#traditional">Traditional Art</a></li>
-            <li><a href="portfolio.html#digital">Digital Art</a></li>
-            <li><a href="portfolio.html#poster">Posters</a></li>
-            <li><a href="portfolio.html#film">Short Films</a></li>
-        </ul>
+            <div class="gallery-card">
+                <img src="images/art1.jpg" alt="Artwork 1">
+            </div>
 
-    </li>
+            <div class="gallery-card">
+                <img src="images/art2.jpg" alt="Artwork 2">
+            </div>
 
-    <li>
-        <a href="contact.html" class="nav-pill">
-            Contact
-        </a>
-    </li>
+            <div class="gallery-card">
+                <img src="images/art3.jpg" alt="Artwork 3">
+            </div>
 
-</ul>
-```
+        </div>
 
-</nav>
+    </section>
 
-<!-- HERO -->
 
-<section id="home">
+    <!-- ABOUT PREVIEW -->
+    <section class="about-preview">
 
-```
-<div class="hero-content">
+        <div class="section-title">
+            <p>ABOUT</p>
+            <h2>The Artist Behind The Work</h2>
+        </div>
 
-    <span class="hero-badge">
-        Artist &amp; Illustrator · Delhi, India
-    </span>
+        <p class="about-text">
+            I create illustrations, cinematic visuals, posters,
+            and visual stories inspired by emotion, atmosphere,
+            storytelling, and imagination.
+        </p>
 
-    <h1 class="hero">
-        Bringing<br>
-        characters<br>
-        <em>to life.</em>
-    </h1>
-
-    <p class="hero-sub">
-        Digital illustrations, traditional art,
-        concept work — rooted in vivid imagination
-        and visual storytelling.
-    </p>
-
-    <div class="btns">
-
-        <a href="portfolio.html" class="btn btn-dark">
-            See my work
+        <a href="about.html" class="text-link">
+            Learn More →
         </a>
 
-        <a href="contact.html" class="btn btn-ghost">
-            Commission me
-        </a>
+    </section>
 
-    </div>
 
-</div>
+    <!-- SOCIALS -->
+    <section class="social-section">
 
-<div class="scroll-cue">
-    Scroll down
-</div>
-```
+        <div class="section-title">
+            <p>SOCIAL</p>
+            <h2>Follow The Journey</h2>
+        </div>
 
-</section>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Behance</a>
+            <a href="#">Contact</a>
+        </div>
 
-<footer>
-    <span>© 2026 NOBD. All rights reserved.</span>
-    <span>Made with ♥ in Delhi</span>
-</footer>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 NOBD — All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
