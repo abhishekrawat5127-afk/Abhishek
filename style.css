@@ -31,7 +31,7 @@ header{
 
 .hero {
     position: relative;
-    background: url("images/yourphoto.jpg") no-repeat center center;
+    background: url("IMG_20260528_232322.jpg.jpeg") no-repeat center center;
     background-size: cover;
     min-height: 100vh; /* full screen height */
     display: flex;
