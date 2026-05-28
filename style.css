@@ -740,35 +740,3 @@ footer{
     }
 }
 
-body{
-    background:#0b0b0b;
-    color:#f5f5f5;
-    font-family:'Inter', sans-serif;
-
-    position:relative;
-    overflow-x:hidden;
-}
-
-/* BACKGROUND ART */
-
-body::before{
-    content:'';
-
-    position:fixed;
-    inset:0;
-
-    background:
-    url('images/bg-art.png');
-
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-
-    opacity:0.08;
-
-    z-index:-1;
-
-    filter:grayscale(100%)
-            contrast(110%)
-            blur(2px);
-}
