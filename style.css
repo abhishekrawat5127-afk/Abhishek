@@ -75,18 +75,19 @@ header{
 
 /* LOGO */
 
+/* LOGO */
+
 .logo{
     display:flex;
     align-items:center;
 }
 
 .logo img{
-    height:40px;
+    height:75px;
     width:auto;
     display:block;
     object-fit:contain;
 }
-
 .nav-links{
     display:flex;
     list-style:none;
