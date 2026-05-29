@@ -456,29 +456,26 @@ footer{
     max-width:950px;
 }
 
-```css
+
 /* HANDWRITTEN PORTFOLIO TITLE */
+
 
 .portfolio-title{
     width:90%;
     max-width:1400px;
-
     margin:10px auto 70px;
-
     text-align:center;
 }
 
 .portfolio-title h1{
     font-family:'Caveat', cursive;
-
     font-size:6rem;
     font-weight:500;
-
     color:#f5f5f5;
-
     letter-spacing:2px;
     line-height:1;
 }
+
 
 
 /* RESPONSIVE */
