@@ -431,92 +431,44 @@ footer{
 }
 
 
-/* ==========================
+
+/* ======================================
    PORTFOLIO PAGE
-========================== */
-
-.portfolio-hero{
-    width:90%;
-    max-width:1400px;
-    min-height:70vh;
-    margin:auto;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-
-    padding-top:140px;
-}
-
-.portfolio-hero h1{
-    font-family:'Playfair Display', serif;
-    font-size:5rem;
-    line-height:1.08;
-    font-weight:600;
-    max-width:950px;
-}
+====================================== */
 
 
-/* HANDWRITTEN PORTFOLIO TITLE */
-
-
-.portfolio-title{
-    width:90%;
-    max-width:1400px;
-    margin:10px auto 70px;
-    text-align:center;
-}
-
-.portfolio-title h1{
-    font-family:'Caveat', cursive;
-    font-size:6rem;
-    font-weight:500;
-    color:#f5f5f5;
-    letter-spacing:2px;
-    line-height:1;
-}
-
-
-
-/* RESPONSIVE */
-
-@media(max-width:768px){
-
-    .portfolio-title h1{
-        font-size:3.5rem;
-    }
-}
-```
-
-
-/* CATEGORY MENU */
+/* MENU */
 
 .portfolio-menu{
     width:90%;
     max-width:1400px;
 
-   margin:140px auto 10px;
+    margin:140px auto 20px;
 
     display:flex;
-    gap:40px;
     flex-wrap:wrap;
+    gap:40px;
+
+    justify-content:center;
 }
 
 .portfolio-menu a{
-    color:#f5f5f5;
     text-decoration:none;
+    color:#f5f5f5;
+
     text-transform:uppercase;
     letter-spacing:2px;
-    font-size:0.95rem;
+    font-size:0.9rem;
 
     position:relative;
 }
 
 .portfolio-menu a::after{
     content:'';
+
     position:absolute;
     left:0;
-    bottom:-7px;
+    bottom:-6px;
 
     width:0;
     height:1px;
@@ -530,14 +482,65 @@ footer{
 }
 
 
+
+/* HANDWRITTEN TITLE */
+
+.portfolio-title{
+    width:90%;
+    max-width:1400px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+}
+
+.portfolio-title h1{
+    font-family:'Caveat', cursive;
+
+    font-size:6rem;
+    font-weight:500;
+
+    line-height:1;
+    letter-spacing:2px;
+
+    color:#f5f5f5;
+}
+
+
+
 /* PORTFOLIO SECTION */
 
 .portfolio-section{
     width:90%;
     max-width:1400px;
     margin:auto;
-    padding:90px 0;
+
+    padding:70px 0;
 }
+
+
+
+/* SECTION TITLES */
+
+.section-title{
+    margin-bottom:45px;
+}
+
+.section-title p{
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:0.8rem;
+    color:#9d9d9d;
+
+    margin-bottom:12px;
+}
+
+.section-title h2{
+    font-family:'Playfair Display', serif;
+    font-size:3rem;
+    font-weight:600;
+}
+
 
 
 /* PINTEREST GRID */
@@ -559,91 +562,78 @@ footer{
     width:100%;
     display:block;
 
-    transition:0.6s ease;
+    transition:0.5s ease;
 }
 
 .gallery-card:hover img{
-    transform:scale(1.04);
+    transform:scale(1.03);
 }
 
 
-/* FILMS */
 
-.film-grid{
+/* VIDEO GRID */
+
+.video-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:30px;
+    gap:40px;
 }
 
-.film-card{
-    border:1px solid #222;
-    padding:50px;
-    transition:0.35s ease;
+.video-card video{
+    width:100%;
+    display:block;
+
+    margin-bottom:18px;
 }
 
-.film-card:hover{
-    transform:translateY(-4px);
-}
-
-.film-card h3{
+.video-card h3{
     font-family:'Playfair Display', serif;
     font-size:2rem;
-    margin-bottom:20px;
+
+    margin-bottom:12px;
 }
 
-.film-card p{
-    color:#b5b5b5;
-    line-height:1.9;
+.video-card p{
+    color:#bdbdbd;
+    line-height:1.8;
 }
 
 
-/* COMMISSIONS */
 
-.commission-section{
-    width:90%;
-    max-width:1400px;
-    margin:auto;
+/* FOOTER */
+
+footer{
     text-align:center;
-
-    padding:140px 0;
+    padding:80px 20px;
 }
 
-.commission-box{
-    max-width:750px;
-    margin:50px auto;
-
-    border:1px solid #222;
-    padding:60px;
+footer p{
+    color:#8f8f8f;
 }
 
-.commission-box p{
-    font-size:1.1rem;
-    margin-bottom:20px;
-    color:#d4d4d4;
-}
 
 
 /* RESPONSIVE */
 
 @media(max-width:992px){
 
-    .portfolio-hero h1{
-        font-size:3.5rem;
+    .portfolio-title h1{
+        font-size:4rem;
     }
 
     .gallery-grid{
         column-count:2;
     }
 
-    .film-grid{
+    .video-grid{
         grid-template-columns:1fr;
     }
 }
 
 @media(max-width:768px){
 
-    .portfolio-hero h1{
-        font-size:2.7rem;
+    .portfolio-title h1{
+        font-size:3rem;
     }
 
     .portfolio-menu{
@@ -654,10 +644,12 @@ footer{
         column-count:1;
     }
 
-    .commission-box{
-        padding:40px 25px;
+    .section-title h2{
+        font-size:2.2rem;
     }
 }
+
+
 
 /* CONTACT PAGE */
 
