@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>ABHISHEK RAWAT PORTFOLIO</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
@@ -18,138 +16,156 @@
 
 <body>
 
-
 <header>
     <nav class="navbar">
 
         <!-- LEFT SOCIAL ICONS -->
         <div class="nav-socials">
-
             <a href="https://instagram.com/yourusername" target="_blank">
                 <img src="instagram-black-and-white-logo-in-app-style-with-thick-white-border-and-shadow-free-png.webp" alt="Instagram">
             </a>
-
             <a href="#">
                 <img src="a-black-and-white-link-icon-on-a-white-button-free-png.webp" alt="Share">
             </a>
-
             <a href="https://behance.net/yourusername" target="_blank">
                 <img src="hd-round-black-and-white-behance-be-logo-icon-sign-symbol-png-7017516950517803rfq5zu8en.webp" alt="Behance">
             </a>
-
         </div>
-
 
         <!-- CENTER LOGO -->
         <a href="index.html" class="logo">
             <img src="Untitled - May 29, 2026 at 15.44.05.png" alt="Logo">
         </a>
 
-
         <!-- RIGHT NAV LINKS -->
         <ul class="nav-links">
-
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-
-            <li>
-                <a href="about.html">ABOUT</a>
-            </li>
-
-            <li>
-                <a href="portfolio.html">PORTFOLIO</a>
-            </li>
-
-            <li>
-                <a href="contact.html">CONTACT</a>
-            </li>
-
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
         </ul>
 
+        <!-- MOBILE MENU TOGGLE -->
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
     </nav>
+
+    <!-- MOBILE DROPDOWN MENU -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
 </header>
 
 
-
-    <!-- HERO SECTION -->
-    <section class="hero">
-
-        <div class="hero-text">
-            <p class="small-heading">
-                Illustrator • Animator • Story Artist
-            </p>
-
-            <h1>
-                Creating Editorial Visual Stories Through Art & Motion
-            </h1>
-
-            <p class="hero-description">
-                A creative space showcasing illustrations, cinematic visuals,
-                storytelling, and personal artistic exploration.
-            </p>
-
-            <a href="portfolio.html" class="hero-button">
-                View Portfolio
-            </a>
-        </div>
-
-    </section>
-
-
-
-    <!-- ABOUT PREVIEW -->
-    <section class="about-preview">
-
-        <div class="section-title">
-            <p>ABOUT</p>
-            <h2>The Artist Behind The Work</h2>
-        </div>
-
-        <p class="about-text">
-            I create illustrations, cinematic visuals, posters,
-            and visual stories inspired by emotion, atmosphere,
-            storytelling, and imagination.
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <p class="small-heading">Illustrator • Animator • Story Artist</p>
+        <h1>Creating Editorial Visual Stories Through Art & Motion</h1>
+        <p class="hero-description">
+            A creative space showcasing illustrations, cinematic visuals,
+            storytelling, and personal artistic exploration.
         </p>
+        <a href="portfolio.html" class="hero-button">View Portfolio</a>
+    </div>
+</section>
 
-        <a href="about.html" class="text-link">
-            Learn More →
-        </a>
 
-    </section>
+<!-- FEATURED WORK SECTION -->
+<section class="featured-work">
+    <div class="section-title">
+        <p>WORK</p>
+        <h2>Featured Projects</h2>
+    </div>
 
-    <!-- 3D DOODLES BACKGROUND -->
-
-<img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
-<img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
-<img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
-<img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
-    
-    
-    <!-- SOCIALS -->
-    <section class="social-section">
-
-        <div class="section-title">
-            <p>SOCIAL</p>
-            <h2>Follow The Journey</h2>
+    <div class="gallery-grid">
+        <div class="gallery-card">
+            <img src="placeholder1.jpg" alt="Project 1">
+            <div class="card-label">Illustration</div>
         </div>
-
-        <div class="social-links">
-            <a href="#">Instagram</a>
-            <a href="#">Behance</a>
-            <a href="#">Email</a>
+        <div class="gallery-card">
+            <img src="placeholder2.jpg" alt="Project 2">
+            <div class="card-label">Animation</div>
         </div>
+        <div class="gallery-card">
+            <img src="placeholder3.jpg" alt="Project 3">
+            <div class="card-label">Story Art</div>
+        </div>
+    </div>
 
-    </section>
+    <div class="view-all-wrap">
+        <a href="portfolio.html" class="text-link">View All Work →</a>
+    </div>
+</section>
 
-    <div class="bg-shape shape-1"></div>
+
+<!-- ABOUT PREVIEW -->
+<section class="about-preview">
+    <div class="section-title">
+        <p>ABOUT</p>
+        <h2>The Artist Behind The Work</h2>
+    </div>
+    <p class="about-text">
+        I create illustrations, cinematic visuals, posters,
+        and visual stories inspired by emotion, atmosphere,
+        storytelling, and imagination.
+    </p>
+    <a href="about.html" class="text-link">Learn More →</a>
+</section>
+
+
+<!-- DOODLE BACKGROUND ELEMENTS -->
+<div class="doodles-container">
+    <img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
+    <img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
+    <img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
+    <img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
+</div>
+
+
+<!-- SOCIALS -->
+<section class="social-section">
+    <div class="section-title">
+        <p>SOCIAL</p>
+        <h2>Follow The Journey</h2>
+    </div>
+    <div class="social-links">
+        <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+        <a href="https://behance.net/yourusername" target="_blank">Behance</a>
+        <a href="mailto:youremail@gmail.com">Email</a>
+    </div>
+</section>
+
+
+<div class="bg-shape shape-1"></div>
 <div class="bg-shape shape-2"></div>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 NOBD — All Rights Reserved</p>
-    </footer>
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 NOBD — All Rights Reserved</p>
+</footer>
+
+
+<script>
+    // Mobile menu toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    toggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('open');
+        toggle.classList.toggle('active');
+    });
+</script>
 
 </body>
 </html>
