@@ -1,16 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>NOBD — Portfolio</title>
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -18,275 +15,230 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar">
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
 
-            <a href="index.html" class="logo">
-    <img src="ce8693cd-f015-4c46-a90b-f4a275d9ae92.jpg" alt="Abhishek Rawat Logo">
-</a>
-
-            <ul class="nav-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-
-        </nav>
-    </header>
-
-
-    <!-- MENU -->
-    <section class="portfolio-menu">
-
-        <a href="#traditional">Traditional Art</a>
-        <a href="#digital">Digital Art</a>
-        <a href="#posters">Posters</a>
-        <a href="#films">Short Films</a>
-        <a href="#video-editing">Video Editing</a>
-        <a href="#customizing">Customizing</a>
-
-    </section>
-
-
-    <!-- TITLE -->
-    <section class="portfolio-title">
-        <h1>ABHISHEK RAWAT PORTFOLIO</h1>
-    </section>
-
-    <!-- 3D DOODLES BACKGROUND -->
-
-<img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
-<img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
-<img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
-<img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
-
-    <!-- TRADITIONAL ART -->
-    <section class="portfolio-section" id="traditional">
-
-        <div class="section-title">
-            <p>TRADITIONAL</p>
-            <h2>Traditional Art</h2>
+        <!-- LEFT SOCIAL ICONS -->
+        <div class="nav-socials">
+            <a href="https://instagram.com/yourusername" target="_blank">
+                <img src="instagram-black-and-white-logo-in-app-style-with-thick-white-border-and-shadow-free-png.webp" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="a-black-and-white-link-icon-on-a-white-button-free-png.webp" alt="Share">
+            </a>
+            <a href="https://behance.net/yourusername" target="_blank">
+                <img src="hd-round-black-and-white-behance-be-logo-icon-sign-symbol-png-7017516950517803rfq5zu8en.webp" alt="Behance">
+            </a>
         </div>
 
-        <div class="gallery-grid">
+        <!-- CENTER LOGO -->
+        <a href="index.html" class="logo">
+            <img src="Untitled - May 29, 2026 at 15.44.05.png" alt="Logo">
+        </a>
 
-            <div class="gallery-card">
-                <img src="images/traditional1.jpg" alt="">
-            </div>
+        <!-- RIGHT NAV LINKS -->
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
 
-            <div class="gallery-card">
-                <img src="images/traditional2.jpg" alt="">
-            </div>
+        <!-- MOBILE MENU TOGGLE -->
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-            <div class="gallery-card">
-                <img src="images/traditional3.jpg" alt="">
-            </div>
+    </nav>
 
-            <div class="gallery-card">
-                <img src="images/traditional4.jpg" alt="">
-            </div>
+    <!-- MOBILE DROPDOWN MENU -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</header>
 
-            <div class="gallery-card">
-                <img src="images/traditional5.jpg" alt="">
-            </div>
 
-            <div class="gallery-card">
-                <img src="images/traditional6.jpg" alt="">
-            </div>
+<!-- PORTFOLIO MENU -->
+<section class="portfolio-menu">
+    <a href="#traditional">Traditional Art</a>
+    <a href="#digital">Digital Art</a>
+    <a href="#posters">Posters</a>
+    <a href="#films">Short Films</a>
+    <a href="#video-editing">Video Editing</a>
+    <a href="#customizing">Customizing</a>
+</section>
 
+
+<!-- TITLE -->
+<section class="portfolio-title">
+    <h1>ABHISHEK RAWAT PORTFOLIO</h1>
+</section>
+
+
+<!-- DOODLE BACKGROUND ELEMENTS -->
+<div class="doodles-container">
+    <img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
+    <img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
+    <img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
+    <img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
+</div>
+
+
+<!-- TRADITIONAL ART -->
+<section class="portfolio-section" id="traditional">
+    <div class="section-title">
+        <p>TRADITIONAL</p>
+        <h2>Traditional Art</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-card"><img src="images/traditional1.jpg" alt="Traditional Art 1"></div>
+        <div class="gallery-card"><img src="images/traditional2.jpg" alt="Traditional Art 2"></div>
+        <div class="gallery-card"><img src="images/traditional3.jpg" alt="Traditional Art 3"></div>
+        <div class="gallery-card"><img src="images/traditional4.jpg" alt="Traditional Art 4"></div>
+        <div class="gallery-card"><img src="images/traditional5.jpg" alt="Traditional Art 5"></div>
+        <div class="gallery-card"><img src="images/traditional6.jpg" alt="Traditional Art 6"></div>
+    </div>
+</section>
+
+
+<!-- DIGITAL ART -->
+<section class="portfolio-section" id="digital">
+    <div class="section-title">
+        <p>DIGITAL</p>
+        <h2>Digital Art</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-card"><img src="images/digital1.jpg" alt="Digital Art 1"></div>
+        <div class="gallery-card"><img src="images/digital2.jpg" alt="Digital Art 2"></div>
+        <div class="gallery-card"><img src="images/digital3.jpg" alt="Digital Art 3"></div>
+        <div class="gallery-card"><img src="images/digital4.jpg" alt="Digital Art 4"></div>
+    </div>
+</section>
+
+
+<!-- POSTERS -->
+<section class="portfolio-section" id="posters">
+    <div class="section-title">
+        <p>POSTERS</p>
+        <h2>Poster Designs</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-card"><img src="images/poster1.jpg" alt="Poster 1"></div>
+        <div class="gallery-card"><img src="images/poster2.jpg" alt="Poster 2"></div>
+        <div class="gallery-card"><img src="images/poster3.jpg" alt="Poster 3"></div>
+        <div class="gallery-card"><img src="images/poster4.jpg" alt="Poster 4"></div>
+    </div>
+</section>
+
+
+<!-- SHORT FILMS -->
+<section class="portfolio-section" id="films">
+    <div class="section-title">
+        <p>SHORT FILMS</p>
+        <h2>Motion & Storytelling</h2>
+    </div>
+    <div class="video-grid">
+        <div class="video-card">
+            <video controls poster="images/thumb1.jpg">
+                <source src="videos/film1.mp4" type="video/mp4">
+            </video>
+            <h3>Film Title</h3>
+            <p>Cinematic visual storytelling and emotion.</p>
         </div>
-
-    </section>
-
-
-    <!-- DIGITAL ART -->
-    <section class="portfolio-section" id="digital">
-
-        <div class="section-title">
-            <p>DIGITAL</p>
-            <h2>Digital Art</h2>
+        <div class="video-card">
+            <video controls poster="images/thumb2.jpg">
+                <source src="videos/film2.mp4" type="video/mp4">
+            </video>
+            <h3>Experimental Film</h3>
+            <p>Motion, atmosphere and storytelling.</p>
         </div>
+    </div>
+</section>
 
-        <div class="gallery-grid">
 
-            <div class="gallery-card">
-                <img src="images/digital1.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/digital2.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/digital3.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/digital4.jpg" alt="">
-            </div>
-
+<!-- VIDEO EDITING -->
+<section class="portfolio-section" id="video-editing">
+    <div class="section-title">
+        <p>VIDEO EDITING</p>
+        <h2>Edited Visuals</h2>
+    </div>
+    <div class="video-grid">
+        <div class="video-card">
+            <video controls poster="images/edit1-thumb.jpg">
+                <source src="videos/edit1.mp4" type="video/mp4">
+            </video>
+            <h3>Edit Title</h3>
+            <p>Cinematic editing, pacing and storytelling.</p>
         </div>
-
-    </section>
-
-
-    <!-- POSTERS -->
-    <section class="portfolio-section" id="posters">
-
-        <div class="section-title">
-            <p>POSTERS</p>
-            <h2>Poster Designs</h2>
+        <div class="video-card">
+            <video controls poster="images/edit2-thumb.jpg">
+                <source src="videos/edit2.mp4" type="video/mp4">
+            </video>
+            <h3>Project Title</h3>
+            <p>Visual rhythm and motion editing.</p>
         </div>
-
-        <div class="gallery-grid">
-
-            <div class="gallery-card">
-                <img src="images/poster1.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/poster2.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/poster3.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/poster4.jpg" alt="">
-            </div>
-
-        </div>
-
-    </section>
+    </div>
+</section>
 
 
-    <!-- SHORT FILMS -->
-    <section class="portfolio-section" id="films">
-
-        <div class="section-title">
-            <p>SHORT FILMS</p>
-            <h2>Motion & Storytelling</h2>
-        </div>
-
-        <div class="video-grid">
-
-            <div class="video-card">
-
-                <video controls poster="images/thumb1.jpg">
-                    <source src="videos/film1.mp4" type="video/mp4">
-                </video>
-
-                <h3>Film Title</h3>
-
-                <p>
-                    Cinematic visual storytelling and emotion.
-                </p>
-
-            </div>
+<!-- CUSTOMIZING -->
+<section class="portfolio-section" id="customizing">
+    <div class="section-title">
+        <p>CUSTOMIZING</p>
+        <h2>Creative Custom Work</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-card"><img src="images/custom1.jpg" alt="Custom Work 1"></div>
+        <div class="gallery-card"><img src="images/custom2.jpg" alt="Custom Work 2"></div>
+        <div class="gallery-card"><img src="images/custom3.jpg" alt="Custom Work 3"></div>
+        <div class="gallery-card"><img src="images/custom4.jpg" alt="Custom Work 4"></div>
+    </div>
+</section>
 
 
-            <div class="video-card">
-
-                <video controls poster="images/thumb2.jpg">
-                    <source src="videos/film2.mp4" type="video/mp4">
-                </video>
-
-                <h3>Experimental Film</h3>
-
-                <p>
-                    Motion, atmosphere and storytelling.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
+<!-- SOCIALS -->
+<section class="social-section">
+    <div class="section-title">
+        <p>SOCIAL</p>
+        <h2>Follow The Journey</h2>
+    </div>
+    <div class="social-links">
+        <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+        <a href="https://behance.net/yourusername" target="_blank">Behance</a>
+        <a href="mailto:youremail@gmail.com">Email</a>
+    </div>
+</section>
 
 
-    <!-- VIDEO EDITING -->
-    <section class="portfolio-section" id="video-editing">
-
-        <div class="section-title">
-            <p>VIDEO EDITING</p>
-            <h2>Edited Visuals</h2>
-        </div>
-
-        <div class="video-grid">
-
-            <div class="video-card">
-
-                <video controls poster="images/edit1-thumb.jpg">
-                    <source src="videos/edit1.mp4" type="video/mp4">
-                </video>
-
-                <h3>Edit Title</h3>
-
-                <p>
-                    Cinematic editing, pacing and storytelling.
-                </p>
-
-            </div>
+<!-- BG SHAPES -->
+<div class="bg-shape shape-1"></div>
+<div class="bg-shape shape-2"></div>
 
 
-            <div class="video-card">
-
-                <video controls poster="images/edit2-thumb.jpg">
-                    <source src="videos/edit2.mp4" type="video/mp4">
-                </video>
-
-                <h3>Project Title</h3>
-
-                <p>
-                    Visual rhythm and motion editing.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 NOBD — All Rights Reserved</p>
+</footer>
 
 
-    <!-- CUSTOMIZING -->
-    <section class="portfolio-section" id="customizing">
+<script>
+    // Mobile menu toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
 
-        <div class="section-title">
-            <p>CUSTOMIZING</p>
-            <h2>Creative Custom Work</h2>
-        </div>
-
-        <div class="gallery-grid">
-
-            <div class="gallery-card">
-                <img src="images/custom1.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/custom2.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/custom3.jpg" alt="">
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/custom4.jpg" alt="">
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 NOBD — All Rights Reserved</p>
-    </footer>
+    toggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('open');
+        toggle.classList.toggle('active');
+    });
+</script>
 
 </body>
 </html>
-
