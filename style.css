@@ -78,14 +78,15 @@ header{
 .logo{
     display:flex;
     align-items:center;
-    text-decoration:none;
 }
 
 .logo img{
-    height:55px;
+    height:40px;
     width:auto;
     display:block;
+    object-fit:contain;
 }
+
 .nav-links{
     display:flex;
     list-style:none;
