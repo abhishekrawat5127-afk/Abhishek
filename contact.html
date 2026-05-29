@@ -3,130 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>NOBD — Contact</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar">
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
 
-            <a href="index.html" class="logo">
-    <img src="ce8693cd-f015-4c46-a90b-f4a275d9ae92.jpg" alt="Abhishek Rawat Logo">
-</a>
-
-            <ul class="nav-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact.html" class="active">CONTACT</a></li>
-            </ul>
-
-        </nav>
-    </header>
-
-
-    <!-- CONTACT HERO -->
-    <section class="contact-hero">
-
-        <p class="small-heading">GET IN TOUCH</p>
-
-        <h1>
-            Let’s Create Something Beautiful Together
-        </h1>
-
-        <p class="contact-subtext">
-            For commissions, collaborations, artwork inquiries,
-            or creative opportunities.
-        </p>
-
-    </section>
-
-
-<!-- 3D DOODLES BACKGROUND -->
-
-<img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
-<img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
-<img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
-<img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
-
-
-
-    <!-- CONTACT CONTENT -->
-    <section class="contact-container">
-
-        <!-- LEFT SIDE -->
-        <div class="contact-info">
-
-            <div class="section-title">
-                <p>CONNECT</p>
-                <h2>Reach Out</h2>
-            </div>
-
-            <div class="contact-links">
-
-                <div class="contact-item">
-                    <span>Instagram</span>
-                    <a href="#">@yourusername</a>
-                </div>
-
-                <div class="contact-item">
-                    <span>Email</span>
-                    <a href="mailto:your@email.com">
-                        your@email.com
-                    </a>
-                </div>
-
-                <div class="contact-item">
-                    <span>Portfolio</span>
-                    <a href="portfolio.html">
-                        View My Work
-                    </a>
-                </div>
-
-            </div>
-
+        <!-- LEFT SOCIAL ICONS -->
+        <div class="nav-socials">
+            <a href="https://instagram.com/yourusername" target="_blank">
+                <img src="instagram-black-and-white-logo-in-app-style-with-thick-white-border-and-shadow-free-png.webp" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="a-black-and-white-link-icon-on-a-white-button-free-png.webp" alt="Share">
+            </a>
+            <a href="https://behance.net/yourusername" target="_blank">
+                <img src="hd-round-black-and-white-behance-be-logo-icon-sign-symbol-png-7017516950517803rfq5zu8en.webp" alt="Behance">
+            </a>
         </div>
 
+        <!-- CENTER LOGO -->
+        <a href="index.html" class="logo">
+            <img src="Untitled - May 29, 2026 at 15.44.05.png" alt="Logo">
+        </a>
 
-        <!-- RIGHT SIDE -->
-        <div class="contact-form-wrapper">
+        <!-- RIGHT NAV LINKS -->
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
 
-            <form class="contact-form">
+        <!-- MOBILE MENU TOGGLE -->
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-                <input type="text" placeholder="Your Name" required>
+    </nav>
 
-                <input type="email" placeholder="Your Email" required>
+    <!-- MOBILE DROPDOWN MENU -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+    </div>
+</header>
 
-                <textarea
-                    placeholder="Tell me about your project..."
-                    required>
-                </textarea>
 
-                <button type="submit" class="hero-button">
-                    Send Message
-                </button>
+<!-- CONTACT HERO -->
+<section class="contact-hero">
+    <p class="small-heading">GET IN TOUCH</p>
+    <h1>Let's Create Something Beautiful Together</h1>
+    <p class="contact-subtext">
+        For commissions, collaborations, artwork inquiries,
+        or creative opportunities.
+    </p>
+</section>
 
-            </form>
 
+<!-- DOODLE BACKGROUND ELEMENTS -->
+<div class="doodles-container">
+    <img src="irbNnd6zUmK8MLkMOgVqT2cky3yNyKaSiYp2iGUiqb-Iz8wboo-SpiJLUc4adZH9-VQaPQr3JUed2CWcxKu-xfXt7uoMErpBBxB45ysJFe-n9ABugfDm_D38xRViabHUWdEs6S34VGIXd-7Umz3UbDQqi__qfjJBYPEoh6MdU6sDRT0OMRGdSq-DNMKvC59c.jpg" class="doodle doodle-1" alt="">
+    <img src="monochrome-zigzag-pattern-vector-21310605.webp" class="doodle doodle-2" alt="">
+    <img src="seamless-monochrome-pattern-featuring-variety-hand-drawn-black-doodles-white-background-including-stars-spirals-clouds-447871939.webp" class="doodle doodle-3" alt="">
+    <img src="hand-drawn-monochrome-pattern-vector-37376647.webp" class="doodle doodle-4" alt="">
+</div>
+
+
+<!-- CONTACT CONTENT -->
+<section class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-info">
+        <div class="section-title">
+            <p>CONNECT</p>
+            <h2>Reach Out</h2>
         </div>
+        <div class="contact-links">
+            <div class="contact-item">
+                <span>Instagram</span>
+                <a href="https://instagram.com/yourusername" target="_blank">@yourusername</a>
+            </div>
+            <div class="contact-item">
+                <span>Email</span>
+                <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span>Portfolio</span>
+                <a href="portfolio.html">View My Work</a>
+            </div>
+        </div>
+    </div>
 
-    </section>
+    <!-- RIGHT SIDE — replace YOUR_FORM_ID with your Formspree ID -->
+    <!-- Sign up free at formspree.io, create a form, copy the ID -->
+    <div class="contact-form-wrapper">
+        <form
+            class="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea
+                name="message"
+                placeholder="Tell me about your project..."
+                required>
+            </textarea>
+            <button type="submit" class="hero-button">Send Message</button>
+        </form>
+    </div>
+
+</section>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 NOBD — All Rights Reserved</p>
-    </footer>
+<!-- SOCIALS -->
+<section class="social-section">
+    <div class="section-title">
+        <p>SOCIAL</p>
+        <h2>Follow The Journey</h2>
+    </div>
+    <div class="social-links">
+        <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+        <a href="https://behance.net/yourusername" target="_blank">Behance</a>
+        <a href="mailto:youremail@gmail.com">Email</a>
+    </div>
+</section>
+
+
+<!-- BG SHAPES -->
+<div class="bg-shape shape-1"></div>
+<div class="bg-shape shape-2"></div>
+
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 NOBD — All Rights Reserved</p>
+</footer>
+
+
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    toggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('open');
+        toggle.classList.toggle('active');
+    });
+</script>
 
 </body>
 </html>
