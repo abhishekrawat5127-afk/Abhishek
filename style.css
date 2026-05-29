@@ -497,6 +497,7 @@ footer{
 
 .portfolio-title h1{
     font-family:'Caveat', cursive;
+
     font-size:6rem;
     font-weight:500;
 
@@ -504,6 +505,9 @@ footer{
     letter-spacing:2px;
 
     color:#f5f5f5;
+
+    position:relative;
+    top:50px;
 }
 
 
