@@ -217,6 +217,27 @@ body {
 ====================================== */
 
 .hero {
+    position: relative; /* add this if not already there */
+}
+
+.hero-bg-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    opacity: 0.08;
+    z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1; /* keeps text above the photo */
+}
+
+.hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
