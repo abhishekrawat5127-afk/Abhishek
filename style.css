@@ -217,7 +217,14 @@ body {
 ====================================== */
 
 .hero {
-    position: relative; /* add this if not already there */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    padding-top: 130px; /* add this */
 }
 
 .hero-bg-photo {
