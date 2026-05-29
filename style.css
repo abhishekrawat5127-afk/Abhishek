@@ -462,14 +462,12 @@ footer{
 .portfolio-menu{
     width:90%;
     max-width:1400px;
-    margin:auto;
+
+    margin:140px auto 30px;
 
     display:flex;
     gap:40px;
     flex-wrap:wrap;
-
-    padding-top:150px;
-    padding-bottom:80px;
 }
 
 .portfolio-menu a{
