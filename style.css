@@ -412,7 +412,7 @@ object-position: center center;
 
 .doodle {
     position: fixed;
-    opacity: 0.39;
+    opacity: 0.29;
     z-index: 0;
     pointer-events: none;
 }
